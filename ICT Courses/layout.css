@@ -1,17 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* overflow: hidden; */
 }
 
 body {
     width: 100%;
+    /* height: auto; */
 }
 
 nav {
     background-color: green;
     /* width: 10cm; */
     width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    height: 20vh;
+}
+
+nav a {
+    padding-left: 20px;
+}
+
+nav h1 {
+    font-size: 2rem;
+}
+
+
+/* nav h1 {
+    align-self: flex-end;
+} */
+
+a {
+    text-decoration: none;
 }
 
 
@@ -30,9 +56,25 @@ rem / em
 
 */
 
+header {
+    background-color: blue;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+}
+
 footer {
     background-color: rgb(19, 104, 104);
-    color: antiquewhite;
+    color: rgb(124, 107, 85);
     height: 33vh;
     width: 50vw;
+}
+
+.bg {
+    height: 100vh;
+    background: gold;
+}
+
+.red {
+    background: red;
 }
