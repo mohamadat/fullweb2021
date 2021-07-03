@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+nav {
+    background-color: green;
+    /* width: 10cm; */
+    width: 100%;
+}
+
+
+/* css units */
+
+
+/* 
+1- static
+px, cm, mm
+
+2- relative نسبية
+%
+vw, vh
+rem / em
+
+
+*/
+
+footer {
+    background-color: rgb(19, 104, 104);
+    color: antiquewhite;
+    height: 33vh;
+    width: 50vw;
+}
