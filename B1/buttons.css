@@ -1,0 +1,33 @@
+.button-red{
+	background-color:  red;
+	border: 3px solid black;
+}
+
+.button-blue{
+	background-color:  blue;
+}
+
+.button-black{
+	background-color:  black !important;
+}
+
+
+.button-gray{
+	background-color:  gray;
+}
+
+
+.border-x{
+	border:  4.2px dashed #ddd;
+}
+
+#mybiytton{
+	margin-right: 3.7rem;
+}
+
+#my-paragafd{
+	color: blue;
+	font-size: 30px;
+	text-decoration: underline;
+
+}
